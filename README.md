@@ -1,6 +1,6 @@
 # React Pokemon App
 
-Live:
+Live: https://dazzling-rosalind-cf625d.netlify.app/
 
 ## Objective
 
