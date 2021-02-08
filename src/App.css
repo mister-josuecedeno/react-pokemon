@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  /* background-color: gold; */
+  background-image: url('./assets/pokemon.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  border: 1px solid red;
+  padding: 1em;
+  border-radius: 10px;
+  margin-right: 1em;
+
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+
+  width: 300px;
+}
+
+h1 {
+  color: red;
+  /* border-top: 5px solid gold;
+  border-bottom: 5px solid gold; */
+  margin-bottom: 1em;
+  /* background-color: gold; */
+
+  font-weight: normal;
+  padding: 0.25em;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pokemon {
+  margin-bottom: 1rem;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  text-transform: lowercase;
+
+  background: gold;
+  border: 1px solid gold;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+a:hover,
+a.focus {
+  color: red;
+}
+
+button {
+  border: none;
+  background: red;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  margin-top: 1.5rem;
+  margin-right: 5px;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+}
+
+button:hover,
+button:focus {
+  filter: brightness(80%);
+}
