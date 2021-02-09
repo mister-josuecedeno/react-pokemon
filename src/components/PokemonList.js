@@ -5,7 +5,7 @@ export default function PokemonList({ pokemon }) {
     <div className='pokemon-list'>
       {pokemon.map((p) => (
         <div key={p.name} className='pokemon'>
-          <a rel='noopener noreferrer' target='_blank' href='{#}'>
+          <a rel='noopener noreferrer' target='_blank' href='{p.url}'>
             {p.name}
           </a>
         </div>
